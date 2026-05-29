@@ -2,7 +2,7 @@
     "name": "inferendo/module-visidea",
     "description": "Visidea module for Magento",
     "type": "magento2-module",
-    "version": "2.19.0",
+    "version": "2.20.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -10,7 +10,7 @@
     "authors": [
         {
             "name": "Inferendo",
-            "email": "hello@visieda.ai",
+            "email": "hello@visidea.ai",
             "homepage": "https://visidea.ai",
             "role": "Leader"
         }
