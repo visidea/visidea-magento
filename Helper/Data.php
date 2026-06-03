@@ -446,7 +446,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
             'action',
             'price',
             'quantity',
-            'timestamp'
+            'createdDate'
         ];
         return $headers;
     }
