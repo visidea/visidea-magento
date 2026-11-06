@@ -342,7 +342,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     public function getInteractionExportUrl()
     {
         $token_id = $this->getConfig('general', 'private_token');
-        return $this->getBaseUrl('pub/media/visidea/csv/interactions_' . $token_id . '.csv');
+        return $this->getBaseUrl('media/visidea/csv/interactions_' . $token_id . '.csv');
     }
 
     /**
@@ -353,7 +353,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     public function getItemsExportUrl()
     {
         $token_id = $this->getConfig('general', 'private_token');
-        return $this->getBaseUrl('pub/media/visidea/csv/items_' . $token_id . '.csv');
+        return $this->getBaseUrl('media/visidea/csv/items_' . $token_id . '.csv');
     }
 
     /**
@@ -364,7 +364,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     public function getCustomerExportUrl()
     {
         $token_id = $this->getConfig('general', 'private_token');
-        return $this->getBaseUrl('pub/media/visidea/csv/users_' . $token_id . '.csv');
+        return $this->getBaseUrl('media/visidea/csv/users_' . $token_id . '.csv');
     }
 
     /**
